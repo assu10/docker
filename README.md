@@ -15,13 +15,11 @@ OS - Windows 10 Pro
 ## Docker Setup
 > Hello World 출력<br />
 `$ docker container run ubuntu:latest /bin/echo 'Hello World!'`
-
-<br /><br />
+<br />
 
 > Docker Version 확인<br />
 `$ docker version`
-
-<br /><br />
+<br />
 
 > Docker 실행 환경 확인<br />
 `$ docker system info`<br /><br />
