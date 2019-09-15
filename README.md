@@ -22,30 +22,39 @@ OS - Windows 10 Pro
 <br />
 
 > Docker 실행 환경 확인<br />
-`$ docker system info`<br /><br />
+`$ docker system info`
+<br />
 
 > Docker Disk 이용 상황 확인<br />
 `$ docker system df`<br />
-`$ docker system df -v`<br /><br />
+`$ docker system df -v`
+<br />
 
 > Docker Nginx Image Download<br />
 `$ docker pull nginx`<br />
-`$ docker image ls`<br /><br />
+`$ docker image ls`
+<br />
 
 > Nginx 작동 (Docker image 'nginx'를 사용하여 'webserver'라는 이름의 Docker container run<br />
  (명령어 실행하면 container id 출력됨)<br />
 `$ docker container run --name webserver -d -p 80:80 nginx`<br />
-localhost:80 치면 nginx 탑 화면 노출<br /><br />
+localhost:80 치면 nginx 탑 화면 노출
+<br />
 
 > Docker로 기동시킨 Nginx 서버 상태 확인<br />
-`$ docker container ps`<br /><br />
+`$ docker container ps`
+<br />
 
 > 'webserver' container 상세 확인<br />
-`$ docker container stats webserver`<br /><br />
+`$ docker container stats webserver`
+<br />
 
 > Container stop<br />
 `$ docker stop webserver`<br />
-localhost:80 치면 error 화면 노출<br /><br />
+localhost:80 치면 error 화면 노출
+<br />
 
 > Container start<br />
-`$ docker start webserver`<br /><br />
+`$ docker start webserver`
+<br />
+
