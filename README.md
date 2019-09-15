@@ -14,36 +14,36 @@ OS - Windows 10 Pro
 
 ## Docker Setup
 > Hello World 출력<br />
-`$ docker container run ubuntu:latest /bin/echo 'Hello World!'`<br />
+`$ docker container run ubuntu:latest /bin/echo 'Hello World!'`<br /><br />
 
 > Docker Version 확인<br />
-`$ docker version`<br />
+`$ docker version`<br /><br />
 
 > Docker 실행 환경 확인<br />
-`$ docker system info`<br />
+`$ docker system info`<br /><br />
 
 > Docker Disk 이용 상황 확인<br />
 `$ docker system df`<br />
-`$ docker system df -v`<br />
+`$ docker system df -v`<br /><br />
 
 > Docker Nginx Image Download<br />
 `$ docker pull nginx`<br />
-`$ docker image ls`<br />
+`$ docker image ls`<br /><br />
 
 > Nginx 작동 (Docker image 'nginx'를 사용하여 'webserver'라는 이름의 Docker container run<br />
  (명령어 실행하면 container id 출력됨)<br />
 `$ docker container run --name webserver -d -p 80:80 nginx`<br />
-localhost:80 치면 nginx 탑 화면 노출
+localhost:80 치면 nginx 탑 화면 노출<br /><br />
 
 > Docker로 기동시킨 Nginx 서버 상태 확인<br />
-`$ docker container ps`<br />
+`$ docker container ps`<br /><br />
 
 > 'webserver' container 상세 확인<br />
-`$ docker container stats webserver`<br />
+`$ docker container stats webserver`<br /><br />
 
 > Container stop<br />
 `$ docker stop webserver`<br />
-localhost:80 치면 error 화면 노출
+localhost:80 치면 error 화면 노출<br /><br />
 
 > Container start<br />
-`$ docker start webserver`
+`$ docker start webserver`<br /><br />
