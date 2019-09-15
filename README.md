@@ -5,7 +5,7 @@
 - Docker setup
 
 ## Environment
-> Client tool - Docker for Windows<br />
+> Client tool - Docker for Windows (https://hub.docker.com/editions/community/docker-ce-desktop-windows)<br />
 OS - Windows 10 Pro
 
 ## Useful site
