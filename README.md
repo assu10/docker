@@ -12,6 +12,6 @@ OS - Windows 10 Pro
 - Docker Toolbox (https://docs.docker.com/toolbox/)
 
 ## Docker Setup
-`> docker container run ubuntu:latest /bin/echo 'Hello World!'`
+`$ docker container run ubuntu:latest /bin/echo 'Hello World!'`
 
 
