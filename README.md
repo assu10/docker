@@ -23,5 +23,6 @@ OS - Windows 10 Pro
 
 > Docker Disk 이용 상황 확인<br />
 `$ docker system df`<br />
+`$ docker system df -v`
 
 
