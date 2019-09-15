@@ -26,18 +26,18 @@ OS - Windows 10 Pro
 <br />
 
 > Docker Disk 이용 상황 확인<br /><br />
-`$ docker system df`<br /><br />
+`$ docker system df`<br />
 `$ docker system df -v`
 <br />
 
 > Docker Nginx Image Download<br /><br />
-`$ docker pull nginx`<br /><br />
+`$ docker pull nginx`<br />
 `$ docker image ls`
 <br />
 
-> Nginx 작동 (Docker image 'nginx'를 사용하여 'webserver'라는 이름의 Docker container run<br /><br />
+> Nginx 작동 (Docker image 'nginx'를 사용하여 'webserver'라는 이름의 Docker container run<br />
  (명령어 실행하면 container id 출력됨)<br /><br />
-`$ docker container run --name webserver -d -p 80:80 nginx`<br /><br />
+`$ docker container run --name webserver -d -p 80:80 nginx`<br />
 localhost:80 치면 nginx 탑 화면 노출
 <br />
 
@@ -49,8 +49,8 @@ localhost:80 치면 nginx 탑 화면 노출
 `$ docker container stats webserver`
 <br />
 
-> Container stop<br />
-`$ docker stop webserver`<br /><br />
+> Container stop<br /><br />
+`$ docker stop webserver`<br />
 localhost:80 치면 error 화면 노출
 <br />
 
