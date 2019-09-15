@@ -5,7 +5,7 @@
 - Docker setup
 
 ## Environment
-> Client tool - Docker for Windows [Docker Engine 19.03.2] (https://hub.docker.com/editions/community/docker-ce-desktop-windows)<br />
+> Client tool - Docker for Windows ***Docker Engine 19.03.2*** (https://hub.docker.com/editions/community/docker-ce-desktop-windows)<br />
 OS - Windows 10 Pro
 
 ## Useful site
