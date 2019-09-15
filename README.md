@@ -13,7 +13,7 @@ OS - Windows 10 Pro
 - Nginx image (https://hub.docker.com/_/nginx)
 
 ## Docker Setup
-> ***Hello World 출력***<br /><br />
+> **Hello World 출력**<br /><br />
 `$ docker container run ubuntu:latest /bin/echo 'Hello World!'`
 <br />
 
